@@ -11,8 +11,8 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
-  api.addFiles('googlemaps-js-info-bubble.js');
+  api.versionsFrom('METEOR@1.0');
+  api.addFiles('js-info-bubble/src/infobubble-compiled.js', 'client');
 });
 
 Package.onTest(function(api) {
